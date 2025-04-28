@@ -11,7 +11,7 @@ describe('US-012 : Funcionalidade: Busca de filmes', () => {
     it('Deve buscar filmes com sucesso', () => {
         cy.get('#search-input').type('Matrix')
         cy.get('#search-button').click()
-        cy.get('#results-section').should('contain', 'fdsfdgfdsgs')
+        cy.get('#results-section').should('contain', 'Matrix')
     });
 
     it('Deve buscar filmes com sucesso de uma lista', () => {
