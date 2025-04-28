@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cypress open",
-    "test": "cypress run"
+    "test": "npx cypress run --browser edge"
   },
   "repository": {
     "type": "git",
