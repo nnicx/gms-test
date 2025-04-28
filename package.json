@@ -20,5 +20,8 @@
   "homepage": "https://github.com/nnicx/gms-test#readme",
   "dependencies": {
     "cypress": "^14.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0"
   }
 }
